@@ -1,0 +1,3 @@
+.conda
+model/yolov3.weights
+model/yolov3.cfg
