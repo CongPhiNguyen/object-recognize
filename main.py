@@ -64,11 +64,11 @@ def run_recognize(img_path):
             2,
         )
     output_image_path = (
-        "output_image_23.jpg"  # Thay đổi đường dẫn và tên tệp tin theo ý muốn
+        "outputs/image_23.jpg"  # Thay đổi đường dẫn và tên tệp tin theo ý muốn
     )
 
     cv2.imwrite(output_image_path, image)
     print("Đã xuất ra tấm hình kết quả.")
 
 
-run_recognize("1_mxzb.jpg")
+run_recognize("./images/1_mxzb.jpg")
